@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Assignment.Drivers
+namespace AccelerationDisplacementCalc.Drivers
 {
     interface IDriver
     {

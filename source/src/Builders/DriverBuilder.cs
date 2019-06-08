@@ -1,10 +1,10 @@
-﻿using Assignment.Drivers;
-using Assignment.Factories;
+﻿using AccelerationDisplacementCalc.Drivers;
+using AccelerationDisplacementCalc.Factories;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Assignment.Builders
+namespace AccelerationDisplacementCalc.Builders
 {
     class DriverBuilder
     {

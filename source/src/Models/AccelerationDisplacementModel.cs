@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Assignment.Models
+namespace AccelerationDisplacementCalc.Models
 {
     class AccelerationDisplacementModel
     {

@@ -1,9 +1,9 @@
-﻿using Assignment.Commands;
+﻿using AccelerationDisplacementCalc.Commands;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Assignment.Drivers
+namespace AccelerationDisplacementCalc.Drivers
 {
     class OutputDriver :IDriver
     {

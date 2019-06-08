@@ -1,10 +1,10 @@
-﻿using Assignment.Builders;
-using Assignment.Drivers;
+﻿using AccelerationDisplacementCalc.Builders;
+using AccelerationDisplacementCalc.Drivers;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Assignment
+namespace AccelerationDisplacementCalc
 {
     class Calculation
     {

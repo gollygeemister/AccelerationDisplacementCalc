@@ -1,9 +1,9 @@
-﻿using Assignment.Models;
+﻿using AccelerationDisplacementCalc.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Assignment.Commands
+namespace AccelerationDisplacementCalc.Commands
 {
     class OutputCommand : ICommand
     {

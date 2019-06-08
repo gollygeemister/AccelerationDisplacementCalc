@@ -1,10 +1,10 @@
-﻿using Assignment.Commands;
-using Assignment.Models;
+﻿using AccelerationDisplacementCalc.Commands;
+using AccelerationDisplacementCalc.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Assignment.Factories
+namespace AccelerationDisplacementCalc.Factories
 {
     class CommandFactory
     {

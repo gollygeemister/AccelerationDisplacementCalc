@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Assignment.Commands
+namespace AccelerationDisplacementCalc.Commands
 {
     interface IInputCommand : ICommand
     {

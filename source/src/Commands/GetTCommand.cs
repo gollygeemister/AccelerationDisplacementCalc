@@ -1,7 +1,7 @@
 ﻿using System;
-using Assignment.Models;
+using AccelerationDisplacementCalc.Models;
 
-namespace Assignment.Commands
+namespace AccelerationDisplacementCalc.Commands
 {
     class GetTCommand : InputCommand
     {
