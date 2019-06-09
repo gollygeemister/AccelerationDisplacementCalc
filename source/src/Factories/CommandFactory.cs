@@ -15,7 +15,7 @@ namespace AccelerationDisplacementCalc.Factories
             _model = new AccelerationDisplacementModel();
         }
 
-        public IEnumerable<ICommand> GetInputCommands()
+        public IEnumerable<ICommand> CreateInputCommands()
         {
             ICommand[] commands =
             {
@@ -27,12 +27,12 @@ namespace AccelerationDisplacementCalc.Factories
             return commands;
         }
 
-        public ICommand GetCalculaitonCommand()
+        public ICommand CreateCalculaitonCommand()
         {
             return new CalculationCommand(_model);
         }
 
-        public ICommand GetOutputCommand()
+        public ICommand CreateOutputCommand()
         {
             return new OutputCommand(_model);
         }

@@ -1,4 +1,4 @@
-﻿using AccelerationDisplacementCalc.Builders;
+﻿using AccelerationDisplacementCalc.Factories;
 using AccelerationDisplacementCalc.Drivers;
 using System;
 using System.Collections.Generic;
@@ -8,20 +8,20 @@ namespace AccelerationDisplacementCalc
 {
     class Calculation
     {
-        private ICalculationDriver _calculationDriver;
+        private IDriver _inputDriver;
+        private IDriver _calculationDriver;
         private IDriver _outputDriver;
 
-        public Calculation()
+        public Calculation(IDriver inputDriver, IDriver calculationDriver, IDriver outputDriver)
         {
-            var builder = new DriverBuilder();
-
-            _calculationDriver = builder.CreateCommandDriver();
-            _outputDriver = builder.CreateOutputDriver();
+            _inputDriver = inputDriver;
+            _calculationDriver = calculationDriver;
+            _outputDriver = outputDriver;
         }
 
         public void GetInput()
         {
-            _calculationDriver.GetInput();
+            _inputDriver.Run();
         }
 
         public void RunCalculation()

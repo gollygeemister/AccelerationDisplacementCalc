@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AccelerationDisplacementCalc.Factories;
+using System;
 
 namespace AccelerationDisplacementCalc
 {
@@ -6,7 +7,7 @@ namespace AccelerationDisplacementCalc
     {
         static void Main(string[] args)
         {
-            var calc = new Calculation();
+            var calc = CalculationFactory.CreateCalculation();
 
             calc.GetInput();
             calc.RunCalculation();
